@@ -1,0 +1,83 @@
+/* Удаление отступов и границ для всех элементов */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Сброс стилей для списков */
+ul, ol {
+    list-style: none;
+}
+
+/* Сброс стилей для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сброс стилей для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Сброс стилей для кнопок */
+button {
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* Сброс стилей для форм */
+input, textarea, select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Удаление встроенных стилей для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Сброс стилей для таблиц */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Сброс стилей для цитат */
+blockquote, q {
+    quotes: none;
+}
+
+/* Обеспечение единообразия для body */
+body {
+    line-height: 1;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Сброс стилей для встроенных элементов */
+b, strong, i, em, mark, small, del, ins, sub, sup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/* Удаление стандартных стилей для fieldset */
+fieldset {
+    border: none;
+}
+
+/* Скрытие элементов, помеченных как hidden */
+[hidden] {
+    display: none;
+}
